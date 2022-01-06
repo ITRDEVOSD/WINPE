@@ -21,7 +21,7 @@ Import-Module OSD -Force
 
 #Start OSDCloud ZTI the RIGHT way
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with MY Parameters"
-Start-OSDCloud -OSEdition “Enterprise” -Culture “da-dk”
+Start-OSDCloud -OSEdition "Enterprise" -Culture "da-dk"
 
 #Anything I want  can go right here and I can change it at any time since it is in the Cloud!!!!!
 Write-Host  -ForegroundColor Cyan "Starting OSDCloud PostAction ..."
